@@ -1,5 +1,78 @@
 
 /* Footer */
+
+.footer {
+    width: 100%;
+    background-color: #212121;
+    margin-top: 180px;
+}
+
+.footer__wrap {
+    width: 100%;
+    padding: 18px 18px 40px;
+    margin-top: 106px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.footer__logo-img img {
+    width: 264px;
+    height: 84px;
+    margin: 0;
+}
+
+.footer__wrap-title{
+    display: block;
+    padding: 0 0 12px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.footer__wrap-text {
+    display: block;
+    text-decoration: none;
+    margin: 20px 0 18px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: rgb(194, 192, 192);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.footer__logo-contact {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: var(--white-color);
+    margin: 8px 0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.footer__wrap-link-text {
+    display: block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: var(--white-color);
+    margin: 8px 0;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.footer__logo-contact i {
+    width: 28px;
+    font-size: 1.5rem;
+    display: flex;
+}
+
 .footer__powered {
     display: block;
     width: 100%;
@@ -15,3 +88,32 @@
     font-weight: 500;
     color: var(--primary-color);
 }
+
+.footer__wrap-description:hover,
+.footer__wrap-date:hover,
+.footer__wrap-link-text:hover {
+    color: var(--primary-color);
+}
+
+.footer__wrap-description {
+    display: block;
+    text-decoration: none;
+    padding: 20px 0 12px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: rgb(194, 192, 192);
+    transition: 0.3s;
+}
+
+.footer__wrap-date {
+    display: block;
+    text-decoration: none;
+    padding: 0 0 12px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: var(--white-color);
+    transition: 0.3s;
+}
+
