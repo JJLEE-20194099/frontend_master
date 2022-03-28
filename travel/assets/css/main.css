@@ -1,0 +1,17 @@
+
+/* Footer */
+.footer__powered {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    font-size: 1.4rem;
+    text-align: center;
+    height: 50px;
+}
+
+.footer__powered-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
